@@ -10,7 +10,7 @@ crossbeam-channel = "0.3"
 
 atelier-core = { path = "../core", features = ["serde-1", "importer_context"] }
 atelier-schema = { path = "../schema", optional = true }
-tokio = { version = "0.2", features = ["tcp", "sync", "rt-core", "rt-util", "stream"], optional = true }
+tokio = { version = "0.2.11", features = ["tcp", "sync", "rt-core", "rt-util", "stream"], optional = true }
 capnp = { version = "0.12", optional = true}
 capnp-rpc = { version = "0.12", optional = true }
 futures = { version = "0.3", optional = true }

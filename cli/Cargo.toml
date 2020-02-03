@@ -6,8 +6,8 @@ edition = "2018"
 [dependencies]
 capnp = "0.12"
 capnp-rpc = "0.12"
-tokio = { version = "0.2", features = ["io-std", "rt-util", "tcp", "io-util"] }
-tokio-util = { version = "0.2", features = ["codec"] }
+tokio = { version = "0.2.11", features = ["io-std", "rt-util", "tcp", "io-util"] }
+tokio-util = { version = "0.2.0", features = ["codec"] }
 futures = "0.3"
 atelier-schema = { path = "../schema" }
 uuid = "0.8"
